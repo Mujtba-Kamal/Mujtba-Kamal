@@ -1,0 +1,1 @@
+Get-ADDefaultDomainPasswordPolicy | Select-Object ComplexityEnabled, MinPasswordLength, PasswordHistoryCount
