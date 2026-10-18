@@ -5,7 +5,7 @@ Experienced IT Infrastructure Specialist with over 5 years of experience managin
 
 ---
 
-## 🛠️ Enterprise Script Infrastructure Index (45 Production Scripts)
+## 🛠️ Enterprise Script Infrastructure Index (55 Production Scripts)
 
 ### 👤 1. Identity & Access Management (Active Directory / IAM)
 
@@ -50,7 +50,7 @@ Experienced IT Infrastructure Specialist with over 5 years of experience managin
 | `Network-Interface-Auditor.py` | Python | Script querying trunk/access operational state to isolate dead link nodes. |
 | `Network-Port-Scanner.py` | Python | Localized target port auditing searching for rogue active listeners and protocol leaks. |
 
-### 🛡️ 4. Incident Response & Security Operations
+### 🛡️ 4. Advanced Cybersecurity & Incident Response (Blue Teaming)
 
 | Script Name | Language | Core Production Objective |
 | :--- | :--- | :--- |
@@ -61,8 +61,25 @@ Experienced IT Infrastructure Specialist with over 5 years of experience managin
 | `Check-SSL-Expiry.py` | Python | Automated connection validation mapping expiration dates on public and internal SSL certificates. |
 | `Audit-Local-Admins.ps1` | PowerShell | Gathers local machine administrator group memberships to audit access control policies. |
 | `Emergency-Kill-Process.ps1` | PowerShell | Extreme resource threat hunting engine to isolate and terminate running ransomware processes. |
+| `Watch-Critical-SystemFiles.ps1` | PowerShell | File Integrity Monitoring (FIM) calculating SHA256 hashes to prevent OS file modifications. |
+| `Track-Malicious-NetworkProcesses.py` | Python | Tracks network sockets and cross-checks PIDs against indicators of compromise (IoC). |
+| `Audit-ScheduledTasks-Persistence.ps1` | PowerShell | Security audit crawling scheduling engines to target malicious backdoors and persistence. |
+| `Parse-Firewall-Threats.py` | Python | Logic parser crawling traffic logs to isolate and rank aggressive dropping source IPs. |
+| `Isolate-Compromised-Host.ps1` | PowerShell | Instant network segregation of infected hosts while retaining secure fallback IT access. |
 
-### 🔧 5. Tier 1-3 Desktop Engineering & Configuration Controls
+### ☁️ 5. Cloud Systems Engineering (AWS & Azure Infrastructure)
+
+| Script Name | Language | Core Production Objective |
+| :--- | :--- | :--- |
+| `AWS-VPC-Network.tf` | HCL / Terraform | Complete Infrastructure-as-Code provisioning of enterprise Virtual Private Clouds. |
+| `AWS-EC2-Provisioner.tf` | HCL / Terraform | Provisions secure enterprise compute instances mapped directly with structural security parameters. |
+| `AWS-IAM-Cert-Checker.py` | Python | Leverages Boto3 SDK to track and discover public key infrastructure certificate aging across IAM. |
+| `AWS-EC2-Cost-Optimizer.py` | Python | Programmatic cost control engine systematically targeting non-essential idling resources. |
+| `Azure-VM-Snapshot.ps1` | PowerShell | Programmatic hot-snapshot routine preserving cloud server states prior to deployment windows. |
+| `Audit-AWS-Firewall.py` | Python | Infrastructure auditor querying security groups to trap open-to-the-world protocols. |
+| `Azure-Storage-Auditor.ps1` | PowerShell | Aggregates block/blob transaction capacities across cloud containers for financial auditing. |
+
+### 🔧 6. Tier 1-3 Desktop Engineering & Configuration Controls
 
 | Script Name | Language | Core Production Objective |
 | :--- | :--- | :--- |
@@ -82,9 +99,5 @@ Experienced IT Infrastructure Specialist with over 5 years of experience managin
 
 ## 🚀 Core Technical Competencies
 * **Directory Services & Identity (IAM):** Active Directory Domain Services (AD DS), Group Policy Management (GPOs), Governance Compliance.
-* **Infrastructure as Code (IaC):** Linux Shell Scripting (Bash), HashiCorp Terraform deployment models, Cloud Architecture provisioning.
-* **Network & Endpoint Orchestration:** Automation via Python (Netmiko), PowerShell CIM/WMI modules, advanced Batch scripting.
-* **Enterprise Security & Response:** Host-based firewall mitigation, forensic audit logging, security compliance policy mapping.
-
----
-*Feel free to explore my scripts. Connect with me for infrastructure automation projects!*
+* **Infrastructure as Code & Cloud:** HashiCorp Terraform deployment models, AWS Boto3 SDK engine integration, Azure Resource Management.
+* **Network & Endpoint Orchestration:** Automation via Python (Netmiko), PowerShell CIM/WMI modules, advanced Bash & Batch scripting.
